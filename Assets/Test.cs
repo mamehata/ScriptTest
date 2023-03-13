@@ -8,7 +8,7 @@ public class Test : MonoBehaviour
     void Start()
     {
         // money‚ð200‚Å‰Šú‰»‚·‚é
-        int money = 200;
+        int money = 50;
 
         if(money >= 100)
         {
