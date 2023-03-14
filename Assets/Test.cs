@@ -7,8 +7,8 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // money‚ð50‚Å‰Šú‰»‚·‚é
-        int money = 50;
+        // money‚ð200‚Å‰Šú‰»‚·‚é
+        int money = 200;
 
         if(money >= 100)
         {
