@@ -7,17 +7,15 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        int val;
-        int num = 1;
-        if (num == 1)
+        // •Ï”a‚ğ3‚Å‰Šú‰»‚·‚é
+        int a = 3;
+        if (a == 3)
         {
-            val = -100;
+            // •Ï”a‚ª3‚Ìê‡A•Ï”b‚ğ5‚Å‰Šú‰»‚·‚é
+            int b = 5;
         }
-        else
-        {
-            val = 100;
-        }
-        Debug.Log(val);
+        // •Ï”b‚Ì’l‚ğ•\¦‚·‚é
+        Debug.Log(b);
     }
 
     // Update is called once per frame
