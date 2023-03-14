@@ -7,23 +7,12 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // moneyを205で初期化する
-        int money = 205;
-        if (money <= 50)
-        {
-            // moneyが50以下だった場合の処理
-            Debug.Log("武器を売る");
-        }
-        else if (money >= 200)
-        {
-            // moneyが200以上だった場合の処理
-            Debug.Log("武器を買う");
-        }
-        else
-        {
-            // それ以外の場合の処理
-            Debug.Log("ポーションを買う");
-        }
+        // numを1で初期化する
+        int num = 1;
+        // valに代入する値を条件によって変える(三項演算子)
+        int val = (num == 1) ? -100 : 100;
+        // valの値を表示する
+        Debug.Log(val);
     }
 
     // Update is called once per frame
