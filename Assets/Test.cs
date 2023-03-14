@@ -13,9 +13,9 @@ public class Test : MonoBehaviour
         {
             // 変数aが3の場合、変数bを5で初期化する
             int b = 5;
+            // 変数bの値を表示する
+            Debug.Log(b);
         }
-        // 変数bの値を表示する
-        Debug.Log(b);
     }
 
     // Update is called once per frame
