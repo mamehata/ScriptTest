@@ -7,11 +7,16 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // numを1で初期化する
+        int val;
         int num = 1;
-        // valに代入する値を条件によって変える(三項演算子)
-        int val = (num == 1) ? -100 : 100;
-        // valの値を表示する
+        if (num == 1)
+        {
+            val = -100;
+        }
+        else
+        {
+            val = 100;
+        }
         Debug.Log(val);
     }
 
