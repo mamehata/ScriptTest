@@ -7,13 +7,18 @@ public class Test : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // moneyを200で初期化する
+        // moneyを50で初期化する
         int money = 50;
 
         if(money >= 100)
         {
-            // moneyの値が100以上の場合、文字列を表示する
+            // moneyが100以上だった場合
             Debug.Log("ポーションを買う");
+        }
+        else
+        {
+            // moneyが100未満だった場合
+            Debug.Log("武器を売る");
         }
     }
 
