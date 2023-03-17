@@ -12,7 +12,7 @@ public class Test : MonoBehaviour
         if (a == 3)
         {
             // 5‰ñˆ—‚ğŒJ‚è•Ô‚·
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i <= 5; i++)
             {
                 Debug.Log(i);
             }
