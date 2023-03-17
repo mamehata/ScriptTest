@@ -11,10 +11,11 @@ public class Test : MonoBehaviour
         int a = 3;
         if (a == 3)
         {
-            // •Ï”a‚ª3‚Ìê‡A•Ï”b‚ğ5‚Å‰Šú‰»‚·‚é
-            int b = 5;
-            // •Ï”b‚Ì’l‚ğ•\¦‚·‚é
-            Debug.Log(b);
+            // 5‰ñˆ—‚ğŒJ‚è•Ô‚·
+            for (int i = 0; i < 5; i++)
+            {
+                Debug.Log(i);
+            }
         }
     }
 
