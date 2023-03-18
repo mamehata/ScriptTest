@@ -8,14 +8,14 @@ public class Test : MonoBehaviour
     void Start()
     {
         // 要素数5の配列を初期化する
-        int[] points = new int[5];
+        string[] points = new string[5];
 
         // 配列の各要素に値を代入する
-        points[0] = 30;
-        points[1] = 20;
-        points[2] = 50;
-        points[3] = 10;
-        points[4] = 80;
+        points[0] = "あ";
+        points[1] = "い";
+        points[2] = "う";
+        points[3] = "え";
+        points[4] = "お";
 
         // 配列の要素をすべて表示する
         for (int i = 0; i < 5; i++)
