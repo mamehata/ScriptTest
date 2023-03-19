@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    // 「Hello, UnityChan」と表示する関数
-    void Hello ()
+    // 「Goodbye, UnityChan」と表示する関数
+    void Goodbye()
     {
-        Debug.Log("Hello, UnityChan");
+        Debug.Log("Goodbye, UnityChan");
     }
     // Start is called before the first frame update
     void Start()
     {
-        // Hello関数を呼び出す
-        Hello();
+        // Goodbye関数を呼び出す
+        Goodbye();
     }
 
     // Update is called once per frame
