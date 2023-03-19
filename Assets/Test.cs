@@ -8,7 +8,7 @@ public class Test : MonoBehaviour
     void Start()
     {
         // ”z—ñ‚ğ‰Šú‰»‚·‚é
-        int[] points = {30, 20, 50, 10, 80, 15, 60, 100};
+        int[] points = {30, 20, 50, 10, 80, 15, 60, 100, 45, 150, 200, 1};
 
         // ”z—ñ‚Ì—v‘f”‚Ì‚Ô‚ñ‚¾‚¯ˆ—‚ğŒJ‚è•Ô‚·
         for (int i = 0; i < points.Length; i++)
