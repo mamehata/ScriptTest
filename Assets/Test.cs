@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    // 「Goodbye, UnityChan」と表示する関数
-    void Goodbye()
+    // 「Hello」に続けて引数の文字列を表示する関数
+    void HelloName (string name)
     {
-        Debug.Log("Goodbye, UnityChan");
+        Debug.Log("Hello, " + name);
     }
     // Start is called before the first frame update
     void Start()
     {
-        // Goodbye関数を呼び出す
-        Goodbye();
+        // HelloName関数に「Unity」という引数を渡す
+        HelloName ("Unity");
     }
 
     // Update is called once per frame
