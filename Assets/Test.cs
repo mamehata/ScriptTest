@@ -33,6 +33,11 @@ public class Test : MonoBehaviour
         lastboss.Attack();
         // –hŒä—p‚ÌŠÖ”‚ğŒÄ‚Ño‚·
         lastboss.Defence(3);
+
+        Boss midboss = new Boss();
+
+        midboss.Attack();
+        midboss.Defence(8);
     }
 
     // Update is called once per frame
